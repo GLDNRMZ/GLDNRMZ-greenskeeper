@@ -11,13 +11,13 @@ shared_scripts {
 
 client_scripts {
     'bridge/client/**.lua',
-    'cl_cityworker.lua'
+    'cl_greenskeeper.lua'
 }
 
 server_scripts {
     'bridge/server/**.lua',
     'sv_config.lua',
-    'sv_cityworker.lua',
+    'sv_greenskeeper.lua',
 }
 
 lua54 'yes'
