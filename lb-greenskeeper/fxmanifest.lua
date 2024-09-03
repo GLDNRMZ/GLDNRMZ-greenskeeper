@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Randolio'
-description 'City Worker Job'
+author 'GLDNRMZ'
+description 'Golf Greenskeeper'
 
 shared_scripts {
     'config.lua',
