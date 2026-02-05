@@ -3,6 +3,7 @@ game 'gta5'
 
 author 'Randolio'
 description 'City Worker Job'
+version '1.0.0'
 
 shared_scripts {
     'config.lua',
@@ -10,14 +11,14 @@ shared_scripts {
 }
 
 client_scripts {
-    'bridge/client/**.lua',
     'cl_greenskeeper.lua'
 }
 
 server_scripts {
-    'bridge/server/**.lua',
     'sv_config.lua',
     'sv_greenskeeper.lua',
 }
+
+dependency 'community_bridge'
 
 lua54 'yes'
